@@ -1,4 +1,4 @@
-package com.example.userinfocollector.ui.theme
+package com.example.userinfocollector.Presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
