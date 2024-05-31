@@ -1,4 +1,4 @@
-package com.example.userinfocollector.domain
+package com.example.userinfocollector.domain.model
 
 import java.text.SimpleDateFormat
 import java.util.Date

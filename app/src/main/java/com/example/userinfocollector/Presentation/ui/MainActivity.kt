@@ -1,4 +1,4 @@
-package com.example.userinfocollector.Presentation.main
+package com.example.userinfocollector.Presentation.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

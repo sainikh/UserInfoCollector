@@ -1,4 +1,4 @@
-package com.example.userinfocollector.Presentation.main
+package com.example.userinfocollector.Presentation.ui
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -18,7 +18,6 @@ import androidx.compose.ui.unit.dp
 import com.example.userinfocollector.Presentation.ViewModel.UserViewModel
 import com.example.userinfocollector.Presentation.data.UserToDisplay
 import com.example.userinfocollector.Presentation.theme.UserInfoCollectorTheme
-import com.example.userinfocollector.data.User
 
 @Composable
 fun UserListItem(user: UserToDisplay) {

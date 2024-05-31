@@ -1,4 +1,4 @@
-package com.example.userinfocollector.data
+package com.example.userinfocollector.data.model
 
 
 import androidx.room.Entity

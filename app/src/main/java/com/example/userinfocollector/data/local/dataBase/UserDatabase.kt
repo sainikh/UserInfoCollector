@@ -1,10 +1,10 @@
-package com.example.userinfocollector.data
+package com.example.userinfocollector.data.local.dataBase
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import androidx.room.TypeConverters
+import com.example.userinfocollector.data.model.User
 import com.example.userinfocollector.domain.UserDao
 
 @Database(entities = [User::class], version = 1)

@@ -1,4 +1,4 @@
-package com.example.userinfocollector.Presentation.main
+package com.example.userinfocollector.Presentation.ui
 
 sealed class Screen(val route: String){
     object Home : Screen(route = "Home")

@@ -1,6 +1,7 @@
-package com.example.userinfocollector.domain
+package com.example.userinfocollector.domain.usecase
 
-import com.example.userinfocollector.data.UserRepository
+import com.example.userinfocollector.domain.repository.UserRepository
+
 
 class CheckUserExistsUseCase(private val repository: UserRepository) {
     suspend operator fun invoke(username: String): Boolean {

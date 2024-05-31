@@ -1,10 +1,9 @@
 package com.example.userinfocollector.domain
 
-import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.userinfocollector.data.User
+import com.example.userinfocollector.data.model.User
 
 @Dao
 interface UserDao {
